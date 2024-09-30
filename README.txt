@@ -1,6 +1,19 @@
 Project Overview
 This project demonstrates how to scrape content from Wikipedia, split and embed the content into a Milvus vector database, and use it to answer user queries through a FastAPI interface. The project is divided into four main steps: setting up Milvus, scraping content, embedding the content, and creating a FastAPI service.
 
+## Libraries to be Imported
+
+The following libraries need to be installed to run this project:
+
+- **FastAPI**: Framework for building APIs.
+- **Uvicorn**: ASGI server for running the FastAPI application.
+- **Requests**: For making HTTP requests to scrape web pages.
+- **BeautifulSoup**: Library for parsing HTML and extracting data.
+- **LangChain**: Framework for building applications with language models.
+- **dotenv**: For loading environment variables from a `.env` file.
+- **pymilvus**: Client for interacting with the Milvus vector database.
+- **langchain_milvus**: Integration for using Milvus with LangChain.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
 Step 1: Setting Up Milvus
